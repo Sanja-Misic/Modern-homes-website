@@ -11,12 +11,20 @@
   &-input {
     width: 43.6rem;
     height: 5rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-family: inherit;
+    font-weight: 500;
     background-color: $input-background-color;
     border: 2px solid #000000;
   }
   &-textarea {
     width: 43.6rem;
     height: 15.4rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-family: inherit;
+    font-weight: 500;
 
     background-color: $input-background-color;
     border: 2px solid #000000;

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Homes</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lora:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">Modern Homes</a>
+
+      <nav class="header__navigation">
+        <a href="#about" class="header__navigation-item">about</a>
+        <a href="#projects" class="header__navigation-item">projects</a>
+        <a href="#contact" class="header__navigation-item">contact</a>
+        <button class="button header__navigation-button">get a quote</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__text-container">
+          <h1 class="heading-primary">architectural services</h1>
+          <p class="paragraph">
+            We are passionate about creating innovative, functional, and
+            aesthetically pleasing living spaces that meet the unique needs of
+            our clients.
+          </p>
+        </div>
+        <img src="./img/hero-img.jpg" alt="High-rise building in an urban environment" class="hero__img">
+
+      </section>
+
+      <section class="about-us container" id="about">
+        <img src="./img/about-us-img.jpg" alt="Contemporary-style building" class="about-us__img">
+        <div class="about-us__text-container">
+          <h2 class="heading-secondary">ABOUT US</h2>
+          <p class="paragraph">
+            Our team of skilled architects and designers has years of experience
+            in the field of modern architecture and is committed to delivering
+            exceptional results. At our firm, we understand that a home is not
+            just a place to live, but also an expression of one's personality
+            and lifestyle. That's why we work closely with our clients to ensure
+            that every aspect of their modern home is tailored to their specific
+            preferences and requirements. We believe that good design is not
+            just about creating a beautiful space, but also about optimizing
+            functionality, maximizing natural light, and promoting
+            sustainability.
+          </p>
+        </div>
+      </section>
+
+      <section class="our-values container">
+        <h2 class="heading-secondary">Our values</h2>
+        <div class="our-values__wrapper">
+          <div class="our-values__item">
+            <div class="our-values__number">1</div>
+            <div class="our-values__text">Whether you're looking to build a new home or remodel an existing one, our team is here to guide you through the process. We offer a range of architectural services, from initial concept design to construction documentation and project management.</div>
+          </div>
+          <div class="our-values__item our-values__item-2">
+            <div class="our-values__number">2</div>
+            <div class="our-values__text">We use the latest 3D modeling software to provide our clients with a clear and realistic vision of their modern home design, and we work closely with contractors and suppliers to ensure that our projects are completed on time and within budget.</div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section class="our-projects container" id="projects">
+        <h2 class="heading-secondary">our projects</h2>
+        <div class="our-projects__gallery">
+          <div class="our-projects__gallery-item">
+            <div class="our-projects__gallery-img-wrapper">
+              <img src="./img/gallery-img-1.jpg" alt="Contemporary-style building" class="our-projects__gallery-img-1">
+              <div class="our-projects__gallery-overlay"></div>
+             <a href="#" class=" link-button our-projects__gallery-button">Read more &rarr; </a>
+            </div>
+            <div class="our-projects__gallery-img-wrapper">
+              <img src="./img/gallery-img-2.jpg" alt="Contemporary-style building" class="our-projects__gallery-img-2">
+              <div class="our-projects__gallery-overlay"></div>
+              <a href="#" class=" link-button our-projects__gallery-button">Read more &rarr; </a>
+            </div>
+          </div>
+          <div class="our-projects__gallery-item">
+            <div class="our-projects__gallery-img-wrapper">
+              <img src="./img/gallery-img-3.jpg" alt="Contemporary-style building" class="our-projects__gallery-img-3">
+              <div class="our-projects__gallery-overlay"></div>
+              <a href="#" class=" link-button our-projects__gallery-button">Read more &rarr; </a>
+            </div>
+
+            <div class="our-projects__gallery-img-wrapper">
+              <img src="./img/gallery-img-4.jpg" alt="Contemporary-style building" class="our-projects__gallery-img-4">
+              <div class="our-projects__gallery-overlay"></div>
+              <a href="#" class=" link-button our-projects__gallery-button">Read more &rarr; </a>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-us container" id="contact">
+        <h2 class="heading-secondary">contact us</h2>
+        <div class="contact-us__wrapper">
+        <form action="" class="form">
+          <h4 class="form-heading">Fill the form</h4>
+          <input
+          class="form-input"
+          type="email"
+          placeholder="Email"
+          value=""
+          name="email"
+          id="email"
+        />
+        <input
+          class="form-input"
+          type="text"
+          placeholder="Name"
+          value=""
+          name="name"
+          id="name"
+        />
+         <input
+          class="form-input"
+          type="text"
+          placeholder="Lastname"
+          value=""
+          name="lastname"
+          id="lastname"
+        />
+         <input
+          class="form-input"
+          type="text"
+          placeholder="Subject"
+          value=""
+          name="subject"
+          id="subject"
+        />
+
+        <textarea
+          class="form-textarea"
+          placeholder="Meessage"
+          name="message"
+          id="message"
+          rows="6"
+        ></textarea>
+
+        <button class="button form-button"> Send &rarr; </button>
+        </form>
+        <img src="./img/contact-img.jpg" alt="Office team discussing a project" class="contact-us__img">
+      </section>
+      
+      <div class="popup">
+             <form action="" class="form popup-form">
+          <h4 class="form-heading">Fill the form and get a quote</h4>
+          <input
+          class="form-input"
+          type="email"
+          placeholder="Email"
+          value=""
+          name="email"
+          id="email"
+        />
+        <input
+          class="form-input"
+          type="text"
+          placeholder="Name"
+          value=""
+          name="name"
+          id="name"
+        />
+         <input
+          class="form-input"
+          type="text"
+          placeholder="Lastname"
+          value=""
+          name="lastname"
+          id="lastname"
+        />
+         <input
+          class="form-input"
+          type="text"
+          placeholder="Subject"
+          value=""
+          name="subject"
+          id="subject"
+        />
+
+        <textarea
+          class="form-textarea"
+          placeholder="Meessage"
+          name="message"
+          id="message"
+          rows="6"
+        ></textarea>
+
+        <button class="button form-button">Get a quote &rarr; </button>
+        </form>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+      <div class="footer__logo">Modern Homes</div>
+
+      <div class="footer__container">
+        <div class="footer__socials">
+          <h3 class="heading-footer">our socials</h3>
+          <ul class="footer__socials-list">
+            <li>
+              <img
+                src="./icons/Shape.png"
+                alt="Facebook logo"
+                class="footer__socials-icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/Shape (1).png"
+                alt="Twitter logo"
+                class="footer__socials-icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/Shape (2).png"
+                alt="Linkedin logo"
+                class="footer__socials-icon"
+              />
+            </li>
+            <li>
+              <img
+                src="./icons/Shape (3).png"
+                alt="Pinterest logo"
+                class="footer__socials-icon"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__projects">
+          <h3 class="heading-footer">projects</h3>
+          <ul class="footer__projects-list">
+            <li>Homes</li>
+            <li>Offices</li>
+            <li>Other</li>
+          </ul>
+        </div>
+
+        <div class="footer__contact">
+          <h3 class="heading-footer">Contact</h3>
+          <ul class="footer__contact-list">
+            <li class="footer__contact-list-item">
+              <img src="./icons/Vector.png" alt="locaion icon" />
+              <p class="footer-text">Novi Sad, Bulevar oslobođenja 112</p>
+            </li>
+            <li class="footer__contact-list-item">
+              <img src="./icons/Vector (1).png" alt="phone icon" />
+              <p class="footer-text">098 345 677</p>
+            </li>
+            <li class="footer__contact-list-item">
+              <img src="./icons/Vector (2).png" alt="mail icon" />
+              <p class="footer-text">office@homes.rs</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__copy-right">
+        <p class="footer__copy-right-text">
+          &copy; 2023 Modern Homes | All Rights Reserved
+        </p>
+      </div>
+      </div>
+    </footer>
+
+   <script src="./js/script.js"></script>
+  </body>
+</html>

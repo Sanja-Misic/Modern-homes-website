@@ -1,0 +1,28 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: $popup-background-color;
+  display: none;
+
+  &-form {
+    width: 66.7rem;
+    height: 80.3rem;
+    background-color: $white-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.popup-open {
+  display: flex;
+}
+
+.no-scrole {
+  overflow: hidden;
+}
